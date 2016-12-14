@@ -1,0 +1,38 @@
+body{
+  justify-content: center;
+}
+.button1{
+  height: 100px;
+  position: absolute;
+  bottom: 10%;
+  left:50%;
+  transform: translateX(-50%);
+}
+.button2{
+  height: 100px;
+  position: absolute;
+  bottom: 0%;
+  left:50%;
+  transform: translateX(-50%);
+}
+.button1 div, .button2 div{
+  margin: 10px;
+  border: 1px solid black;
+  display: inline;
+  background: grey;
+  padding: 20px
+}
+.ball{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: aqua;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+.boundary{
+  border: 1px solid black;
+  position: relative;
+  margin: auto;
+}
